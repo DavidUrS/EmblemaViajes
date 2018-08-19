@@ -1,0 +1,256 @@
+.card{
+  min-height: 20vh;
+}
+.title{
+  color:gray;
+}
+.title:hover{
+  color:gray;
+  text-decoration: none;
+}
+
+/* Efectos hover encima de las imagenes */
+/* PAQUETES */
+.paquetes .conta{
+  position: relative;
+}
+.paquetes .imag {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.paquetes .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  width: 0;
+  height:100%;
+  transition: .5s ease;
+}
+.paquetes .conta:hover .overlay {
+  width: 100%;
+}
+.paquetes .text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.paquetes .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Hoteles */
+
+.imag {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 140, 186, 0.8);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.conta:hover .overlay {
+  height: 100%;
+  bottom: 0;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lead{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#parques{
+  background: url('../img/parques/fondo_parques.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#paque{
+  background: url('../img/paquetes/fondo_paquetes.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#ofertas_hoteles{
+  background-color: rgb(255, 255, 255);
+}
+#ofertas_paquetes{
+  background-color: rgb(255, 255, 255);
+}
+
+/* INICIO Mega MENU GUIA */
+
+#megaMenu .navbar .dropdown-menu div[class*="col"] {
+  margin-bottom:1rem;
+}
+
+#megaMenu .navbar .dropdown-menu {
+ border:none;
+}
+
+#africa{
+  background-image: url('../img/menu/africa.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+}
+
+#panel_africa{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  margin:0 auto;
+}
+
+#america_norte{
+  background-image: url('../img/menu/america_norte.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+}
+
+#panel_america_norte{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  margin:0 auto;
+}
+
+#america_sur{
+  background-image: url('../img/menu/america_sur.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+#panel_america_sur{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  margin:0 auto;
+}
+
+#antartida{
+  background-image: url('../img/menu/antartida.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+#panel_antartida{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  height: 30vh;
+  margin:0 auto;
+}
+
+#asia_p{
+  background-image: url('../img/menu/asia.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+#panel_asia{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  margin:0 auto;
+}
+
+#europa{
+  background-image: url('../img/menu/europa.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+#panel_europa{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  margin:0 auto;
+}
+
+#oceania{
+  background-image: url('../img/menu/oceania.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+#panel_oceania{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95vw;
+  margin:0 auto;
+}
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+ 
+ /* remove the padding from the navbar so the dropdown hover state is not broken */
+ #megaMenu .navbar {
+ padding-top:0px;
+ padding-bottom:0px;
+}
+
+/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+#megaMenu .navbar .nav-item {
+ padding:.5rem .5rem;
+ margin:0 .25rem;
+}
+
+/* makes the dropdown full width  */
+#megaMenu .navbar .dropdown {position:static;}
+
+#megaMenu .navbar .dropdown-menu {
+ width:100%;
+ left:0;
+ right:0;
+/*  height of nav-item  */
+ top:45px;
+}
+ 
+ /* shows the dropdown menu on hover */
+#megaMenu .navbar .dropdown:hover .dropdown-menu, #megaMenu.navbar .dropdown .dropdown-menu:hover {
+ display:block!important;
+}
+ 
+ #megaMenu .navbar .dropdown-menu {
+   border: 1px solid rgba(0,0,0,.15);
+ }
+
+}
+@media (max-width:767px){
+  .card{
+    height: auto;
+  }
+}
+
+
+
+/* FIN Mega MENU GUIA */

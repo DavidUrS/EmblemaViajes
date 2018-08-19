@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.slidecontainer {
+	max-width: 90vw;
+	width: 100%;
+	margin: 0 auto;
+}
+code{
+  color:white;
+}
+
+.slide {
+	margin: 0 20px;
+}
+
+.slide img {
+	width: auto;
+}
+
+.slick-prev {
+    left: -40px;
+    right: auto;
+}
+
+.slick-next {
+    right: -40px;
+    left: auto;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev {
+	border-top: 2px solid #efefef;
+	border-left: 2px solid #efefef;
+	position: absolute;
+	top: 50%;
+	transform: rotate(-45deg) translateY(-50%);
+}
+
+:focus {
+    outline: 0;
+}
+
+.slick-next {
+	border-bottom: 2px solid #efefef;
+	border-right: 2px solid #efefef;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 50%;
+	transform: rotate(-45deg) translate(5px, calc(-50% + 5px));
+}
+
+.slick-prev:before, .slick-next:before {
+	content: '';
+}
+
+@media (max-width: 767px) {
+	.slidecontainer {
+		max-width: 80%;
+	}
+	.slidecontainer .icons > button {
+		display: none !important;
+	}
+	.slide {
+		margin: 0 10px;
+	}
+}
+
+
+
+/*  */
+#hote{
+  background: url('../img/fondo_hoteles.jpeg');
+  background-size: cover;
+}
+
+.codeTitle{
+  color: white;
+  font-weight: bold;
+}
+ol li{
+  list-style-type: circle;
+  color: white;
+}
+a code{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
+footer{
+  margin-top: 20vh;
+  position: relative;
+  background-color: #343A40;
+}
+footer::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: inherit;
+  transform-origin: top left;
+  transform: skewY(-4deg);
+}
+
+#promociones{
+  padding: 5%;
+  margin-top: 20vh;
+  position: relative;
+  color:white;
+  background-color: #343A40;
+  
+}
+#promociones::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: inherit;
+  transform-origin: top right;
+  transform: skewY(2deg);
+}
+#navDark{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.marcas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#marcas{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+#serviHabita{
+  display: none;
+}
+.img-thumbnail{
+  min-width: 130px;
+}
+.img-thumbnail:hover{
+  filter: brightness(2);
+}
+.dropdown-item:hover{
+    background: #428bca;
+    color: #FFFF;
+}
+.img-fluid{
+    max-height: 80vh;
+}
+.redes{
+    color: white;
+    font-size: 12px;
+}
+.redes:hover{
+	color:white;
+    text-decoration: none;
+}
+.slide{
+	min-height: 100px;
+}
+.reserva{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.motor{
+  position: absolute;
+  margin-top: -67vh;
+  margin-left: 25vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+.display-4{
+	font-size: 2em;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+#logo{
+	min-width: 110px;
+}
+i{
+  color: white
+}
+
+.tarjetas{
+  background-color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.ofertas{
+  width: 100%;
+  margin-top: -18vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 1300px) {
+  .iconss{
+    display: none !important;
+  }
+}
+
+@media (max-width: 730px) {
+  .ofertas {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .motor {
+    position: relative;
+    margin: 0 auto;
+    background-color: #191919;
+    color: white;
+  }
+  #mediosPago{
+    text-align: center;
+  }
+  .ofertas .card-text{
+    display: none;
+  }
+}
+
+@media (max-width: 768px){
+  #formHoteles1{
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px){
+  .ofertas{
+    margin-top: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

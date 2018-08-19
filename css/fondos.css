@@ -1,0 +1,848 @@
+/* FONDOS PARQUES */
+#fondo_par_natu{
+  background-image: url('../img/fondos/par_natu.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_tema{
+  background-image: url('../img/fondos/par_tema.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_acu{
+  background-image: url('../img/fondos/par_acu.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_acuatic{
+  background-image: url('../img/fondos/par_acuatic.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_florida{
+  background-image: url('../img/fondos/par_disney_florida.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_land{
+  background-image: url('../img/fondos/par_disney_land.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_line{
+  background-image: url('../img/fondos/par_disney_line.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_hawai{
+  background-image: url('../img/fondos/par_disney_hawai.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_club{
+  background-image: url('../img/fondos/par_disney_club.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_adventures{
+  background-image: url('../img/fondos/par_disney_adventures.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_paris{
+  background-image: url('../img/fondos/par_disney_paris.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_resort{
+  background-image: url('../img/fondos/par_disney_resort.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_hong{
+  background-image: url('../img/fondos/par_disney_hong.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_shangai{
+  background-image: url('../img/fondos/par_disney_shangai.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_cruise{
+  background-image: url('../img/fondos/par_disney_cruise.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_par_advent{
+  background-image: url('../img/fondos/par_disney_adven.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+/* FIN FONDOS PARQUES */
+/* FONDOS OFERTAS */
+
+#fondo_off_destac{
+  background-image: url('../img/fondos/ofer_destac.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_off_paque{
+  background-image: url('../img/fondos/ofer_paquet.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_off_circui{
+  background-image: url('../img/fondos/ofer_circuit.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_off_combi{
+  background-image: url('../img/fondos/ofer_combi.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_off_todo{
+  background-image: url('../img/fondos/ofer_todo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_off_ultim{
+  background-image: url('../img/fondos/ofer_ultima.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+/* FIN OFERTAS */
+
+/* FONDOS CRUCEROS */
+
+#fondo_top_cari{
+  background-image: url('../img/fondos/cru_top_cari.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_top_medi{
+  background-image: url('../img/fondos/cru_top_medi.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_top_grie{
+  background-image: url('../img/fondos/cru_top_grie.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_top_euro{
+  background-image: url('../img/fondos/cru_top_eur.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_top_balti{
+  background-image: url('../img/fondos/cru_top_balt.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_top_suda{
+  background-image: url('../img/fondos/cru_top_amer.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_ofe_msc{
+  background-image: url('../img/fondos/cru_msc.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_ofe_pull{
+  background-image: url('../img/fondos/cru_pull.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_ofe_roya{
+  background-image: url('../img/fondos/cru_royal.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_ofe_costa{
+  background-image: url('../img/fondos/cru_costa.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_ofe_norw{
+  background-image: url('../img/fondos/cru_norw.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_ofe_tran{
+  background-image: url('../img/fondos/cru_trans.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_vue{
+  background-image: url('../img/fondos/cru_vue_mund.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_lujo{
+  background-image: url('../img/fondos/cru_lujos.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_cuba{
+  background-image: url('../img/fondos/cru_cuba.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_caribe{
+  background-image: url('../img/fondos/cru_caribe.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_mexico{
+  background-image: url('../img/fondos/cru_mexi.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_antil{
+  background-image: url('../img/fondos/cru_antill.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_medi{
+  background-image: url('../img/fondos/cru_medi.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_isl_grie{
+  background-image: url('../img/fondos/cru_isl_grieg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_eur_nort{
+  background-image: url('../img/fondos/cru_eur_norte.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_atlan{
+  background-image: url('../img/fondos/cru_atlan.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_adriat{
+  background-image: url('../img/fondos/cru_adria.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_canari{
+  background-image: url('../img/fondos/cru_canari.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_baltico{
+  background-image: url('../img/fondos/cru_baltico.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_fiordos{
+  background-image: url('../img/fondos/cru_fior.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_bale{
+  background-image: url('../img/fondos/cru_bale.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_sudame{
+  background-image: url('../img/fondos/cru_suda.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_canal_pana{
+  background-image: url('../img/fondos/cru_canal_pana.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_brasil{
+  background-image: url('../img/fondos/cru_brasil.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_ame_nort{
+  background-image: url('../img/fondos/cru_ame_nort.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_cana_berm{
+  background-image: url('../img/fondos/cru_canada.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_alaska{
+  background-image: url('../img/fondos/cru_alaska.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_mar_rojo{
+  background-image: url('../img/fondos/cru_mar_rojo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_asia{
+  background-image: url('../img/fondos/cru_asia.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_dubai{
+  background-image: url('../img/fondos/cru_dubai.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_sey{
+  background-image: url('../img/fondos/cru_sey.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_danu{
+  background-image: url('../img/fondos/cru_danu.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_elba{
+  background-image: url('../img/fondos/cru_elba.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_guadal{
+  background-image: url('../img/fondos/cru_guadal.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_rin{
+  background-image: url('../img/fondos/cru_rin.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_roda{
+  background-image: url('../img/fondos/cru_roda.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_sena{
+  background-image: url('../img/fondos/cru_sena.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_po{
+  background-image: url('../img/fondos/cru_po.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_loira{
+  background-image: url('../img/fondos/cru_loira.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_duero{
+  background-image: url('../img/fondos/cru_duero.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_nilo{
+  background-image: url('../img/fondos/cru_nilo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_chobe{
+  background-image: url('../img/fondos/cru_chobe.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_volga{
+  background-image: url('../img/fondos/cru_volga.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_san_lore{
+  background-image: url('../img/fondos/cru_san_lore.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_antarico{
+  background-image: url('../img/fondos/cru_antarti.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_cab_nort{
+  background-image: url('../img/fondos/cru_cabo_norte.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_groe{
+  background-image: url('../img/fondos/cru_groen.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_artico{
+  background-image: url('../img/fondos/cru_Artico.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_spit{
+  background-image: url('../img/fondos/cru_spit.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_hawai{
+  background-image: url('../img/fondos/cru_hawai.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_tahi{
+  background-image: url('../img/fondos/cru_tahiti.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_nuev_zeland{
+  background-image: url('../img/fondos/cru_nuev_zeland.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_riv_mexic{
+  background-image: url('../img/fondos/cru_riv_mexic.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_galapag{
+  background-image: url('../img/fondos/cru_galapag.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_sudaf{
+  background-image: url('../img/fondos/cru_sudafri.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_cru_afr_cent{
+  background-image: url('../img/fondos/cru_afric_cent.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+
+/* FIN FONDOS CRUCEROS */
+
+/* FONDOS TRANSPORTE */
+
+#fondo_tran_ter{
+  background-image: url('../img/fondos/tran_terre.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tran_aer{
+  background-image: url('../img/fondos/tran_aer.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tran_nau{
+  background-image: url('../img/fondos/tran_nau.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tran_emp{
+  background-image: url('../img/fondos/empre.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tran_spa{
+  background-image: url('../img/fondos/spa.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tran_gast{
+  background-image: url('../img/fondos/gastro.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_depor{
+  background-image: url('../img/fondos/entra_depo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_espec{
+  background-image: url('../img/fondos/entra_espect.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_teat{
+  background-image: url('../img/fondos/entra_teat.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_atrac{
+  background-image: url('../img/fondos/entra_atrac.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_muse{
+  background-image: url('../img/fondos/entra_muse.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_conci{
+  background-image: url('../img/fondos/entra_conci.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_disco{
+  background-image: url('../img/fondos/entra_disco.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_entra_fami{
+  background-image: url('../img/fondos/entra_fami.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_even_despe{
+  background-image: url('../img/fondos/even_desp.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_even_cump{
+  background-image: url('../img/fondos/even_cump.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_even_boda{
+  background-image: url('../img/fondos/even_boda.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_even_grupo{
+  background-image: url('../img/fondos/even_grupo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_even_quince{
+  background-image: url('../img/fondos/even_quin.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_even_empre{
+  background-image: url('../img/fondos/even_empre.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+/* FIN TRANSPORTE */
+
+/* FONDOS ACTIVIDADES */
+#fondo_acti_arme{
+  background-image: url('../img/fondos/act_arme.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_bog{
+  background-image: url('../img/fondos/act_bog.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_buc{
+  background-image: url('../img/fondos/act_buc.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_cali{
+  background-image: url('../img/fondos/act_cali.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_cart{
+  background-image: url('../img/fondos/act_cart.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_ibag{
+  background-image: url('../img/fondos/act_ibag.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_med{
+  background-image: url('../img/fondos/act_med.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_pere{
+  background-image: url('../img/fondos/act_pere.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_sale{
+  background-image: url('../img/fondos/act_sale.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_san{
+  background-image: url('../img/fondos/act_san.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_acti_santa{
+  background-image: url('../img/fondos/act_santa.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+/* FIN FONDOS ACTIVIDADES */
+
+/* FONDOS PAQUETES */
+#fondo_paq_dest{
+  background-image: url('../img/fondos/paq_desta.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_paq_act{
+  background-image: url('../img/fondos/paq_acti.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+
+/* FIN FONDOS PAQUETES */
+
+
+/* FONDOS DE INICIO */
+#fondo_car_playas{
+    background-image: url('../img/fondos/car_playa.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_car_bout{
+    background-image: url('../img/fondos/car_bout.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_car_todo{
+    background-image: url('../img/fondos/car_todo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_car_eco{
+    background-image: url('../img/fondos/car_Eco.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_car_corp{
+    background-image: url('../img/fondos/car_corp.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_car_off{
+    background-image: url('../img/fondos/car_ofer.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+#fondo_tou_tor{
+  background-image: url('../img/fondos/tor_tour.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tou_cruc{
+  background-image: url('../img/fondos/tour_cruc.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tou_ofe{
+  background-image: url('../img/fondos/tour_ofe.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+#fondo_tou_parq{
+  background-image: url('../img/fondos/tour_parq.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:black;
+}
+
+/* FIN FONDOS DE INICIO */
+
+/* FONDOS DE ALOJAMIENTOS */
+#fondo_hot_destacados{
+    background-image: url('../img/fondos/hot_desta.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+  #fondo_hot_playa{
+    background-image: url('../img/fondos/hot_playa.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+  #fondo_hot_bout{
+    background-image: url('../img/fondos/hot_bout.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+  #fondo_hot_todo{
+    background-image: url('../img/fondos/hot_todo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+  #fondo_hot_eco{
+    background-image: url('../img/fondos/hot_eco.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+  #fondo_hot_corp{
+    background-image: url('../img/fondos/hot_corp.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+  .fondo_hot_caru_aloj{
+    background-image: url('../img/fondos/hot_caro_aloj.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+
+  /* fin FONDOS DE ALOJAMIENTOS */
+  .card{
+      border-radius: 0px;
+      border:0px;
+      background-color: rgba(255, 255, 255, 0.9);
+  }
+  .card:hover{
+    margin-top:15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: -2px -7px 24px 5px rgba(255,255,255,1);
+    transform: rotate(0deg) scale(1.050) skew(1deg) translate(0px);
+  }
