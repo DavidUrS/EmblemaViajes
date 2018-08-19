@@ -245,37 +245,37 @@
           <hr>
         <h4 class="text-center mt-3">Formalice su queja o reclamo</h4>
         <h5 class="text-center mt-3">Escribanos su inquietud</h5>
-        <form>
+        <form id="form_queja">
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombres">
+              <input type="text" class="form-control" placeholder="Nombres" id="nombres">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Apellidos">
+              <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-4">
-              <input type="text" class="form-control" placeholder="Area">
+              <input type="text" class="form-control" placeholder="Area" id="area">
             </div>
             <div class="col-md-8">
-              <input type="text" class="form-control" placeholder="Número de telefono">
+              <input type="text" id="numero-tele" class="form-control" placeholder="Número de telefono" >
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-12">
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email" id="email">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-12">
-              <textarea class="form-control" id="inquietudes" rows="3" placeholder="Digite aqui su inquietud"></textarea>
+              <textarea class="form-control" id="queja" rows="3" placeholder="Digite aqui su queja o reclamo"></textarea>
             </div>
           </div>
           <h6 class="text-center">Tema</h6>
           <div class="row">
             <div class="col">
-            <select class="custom-select">
+            <select class="custom-select" name="tema">
               <option selected>Selecciona el tema</option>
               <option value="quejas">Quejas y Reclamos</option>
               <option value="cotiza">Consulta Cotización</option>
@@ -286,7 +286,7 @@
           </div>
           <div class="d-flex justify-content-aroud">
           <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="promociones">
+              <input class="form-check-input" type="checkbox" name="acepto_queja">
               <label class="form-check-label" for="">
               <p>
                 Acepto los <a target="_black" href="javascript:window.open('./pdfs/term_y_cond.pdf');">Terminos y Condiciones</a>  y <a target="_black" href="javascript:window.open('./pdfs/politica_privacidad.pdf');">Políticas de Privacidad</a> 
@@ -1289,5 +1289,6 @@
     <script src="./js/js/bootstrap.min.js"></script>
     <script src="./js/js/jquery-ui.js"></script>
     <script src="./js/change.js"></script>
+    <script src="./js/adicionales/quejas.js"></script>
 </body>
 </html>

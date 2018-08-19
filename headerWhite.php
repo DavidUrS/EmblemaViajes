@@ -61,26 +61,24 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form id="form_llamada">
           <div class="row">
             <div class="col-md-3 p-1">
-              <input type="text" class="form-control" placeholder="Indicativo" require>
+              <input type="text" class="form-control" placeholder="Indicativo" id="indicativo" require>
             </div>
             <div class="col-md-9 p-1">
-              <input type="text" class="form-control" placeholder="Numero" require>
+              <input type="text" class="form-control" placeholder="Numero" id="numero" require>
             </div>
           </div>
           <div class="row">
             <div class="col p-1">
-              <input type="text" class="form-control" placeholder="Nombre y apellidos" require>
+              <input type="text" class="form-control" placeholder="Nombre y apellidos" id="nombre" require>
             </div>
           </div>
+          <input type="submit" class="btn btn-primary" value="Recibir llamada">
         </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
       </div>
     </div>
   </div>
 </div>
+<script src="./js/adicionales/llamada.js"></script>
