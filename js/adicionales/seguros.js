@@ -54,4 +54,5 @@ function registrarSeguro(){
       $("#celular").val("");
       $("#email-seguro").val("");
       $("#observaciones-seguro").val("");
+      document.querySelectorAll('[name=acep_seguros]').forEach((x) => x.checked=false);
 }

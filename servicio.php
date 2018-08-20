@@ -627,22 +627,22 @@
         <br>
         Diligencie el siguiente formulario y en breve nos pondremos en contacto contigo. 
         <br>
-        <form>
+        <form id="form_afiliacion">
         <h5 class="display-4 text-center">Solicitud información afiliación</h5>
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombres">
+              <input type="text" class="form-control" placeholder="Nombres" id="nombres-afi">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Apellidos">
+              <input type="text" class="form-control" placeholder="Apellidos" id="apellidos-afi">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Ciudad">
+              <input type="text" class="form-control" placeholder="Ciudad" id="ciudad-afi">
             </div>
             <div class="col-md-6">
-            <select class="form-control" name="pais" id="pais">
+            <select class="form-control" name="pais-afi">
                 <option selected="selected" value="1">Pais</option>
                 <option value="2">Afganistan</option>
                 <option value="3">Africa Central</option>
@@ -885,29 +885,29 @@
           </div>
           <div class="row mt-2">
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Telefono">
+              <input type="text" class="form-control" placeholder="Telefono" id="telefono-afi">
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Celular">
+              <input type="text" class="form-control" placeholder="Celular" id="celular-afi">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-6">
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email" id="email-afi">
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Web / Url">
+              <input type="text" class="form-control" placeholder="Web / Url" id="web-afi">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-12">
-              <textarea class="form-control" id="observaciones" rows="3" placeholder="Observaciones"></textarea>
+              <textarea class="form-control" id="observaciones-afi" rows="3" placeholder="Observaciones"></textarea>
             </div>
           </div>
           
           <div class="d-flex justify-content-aroud">
           <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="promociones">
+              <input class="form-check-input" type="checkbox" name="acept_afiliacion">
               <label class="form-check-label" for="">
               <p>
                 Acepto los <a target="_black" href="javascript:window.open('./pdfs/term_y_cond.pdf');">Terminos y Condiciones</a>  y <a target="_black" href="javascript:window.open('./pdfs/politica_privacidad.pdf');">Políticas de Privacidad</a> 
@@ -1290,5 +1290,6 @@
     <script src="./js/change.js"></script>
     <script src="./js/adicionales/quejas.js"></script>
     <script src="./js/adicionales/seguros.js"></script>
+    <script src="./js/adicionales/afiliacion.js"></script>
 </body>
 </html>
