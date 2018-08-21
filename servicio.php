@@ -313,21 +313,21 @@
         Si desea ampliar mas información acerca de Royal Concierge por favor diligencie el siguiente formulario:
         </p>
         <br>
-        <form>
+        <form id="form_royal">
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombres">
+              <input type="text" class="form-control" placeholder="Nombres" id="nombres-royal">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Apellidos">
+              <input type="text" class="form-control" placeholder="Apellidos" id="apellidos-royal">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Ciudad">
+              <input type="text" class="form-control" placeholder="Ciudad" id="ciudad-royal">
             </div>
             <div class="col-md-6">
-            <select class="form-control" name="pais" id="pais">
+            <select class="form-control" name="pais-royal">
                 <option selected="selected" value="1">Pais</option>
                 <option value="2">Afganistan</option>
                 <option value="3">Africa Central</option>
@@ -570,26 +570,26 @@
           </div>
           <div class="row mt-2">
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Telefono">
+              <input type="text" class="form-control" placeholder="Telefono" id="telefono-royal">
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Celular">
+              <input type="text" class="form-control" placeholder="Celular" id="celular-royal">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-12">
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email" id="email-royal">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-12">
-              <textarea class="form-control" id="observaciones" rows="3" placeholder="Observaciones"></textarea>
+              <textarea class="form-control" id="observaciones-royal" rows="3" placeholder="Observaciones"></textarea>
             </div>
           </div>
           
           <div class="d-flex justify-content-aroud">
           <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="promociones">
+              <input class="form-check-input" type="checkbox" name="acept_royal">
               <label class="form-check-label" for="">
               <p>
                 Acepto los <a target="_black" href="javascript:window.open('./pdfs/term_y_cond.pdf');">Terminos y Condiciones</a>  y <a target="_black" href="javascript:window.open('./pdfs/politica_privacidad.pdf');">Políticas de Privacidad</a> 
@@ -1291,5 +1291,6 @@
     <script src="./js/adicionales/quejas.js"></script>
     <script src="./js/adicionales/seguros.js"></script>
     <script src="./js/adicionales/afiliacion.js"></script>
+    <script src="./js/adicionales/royal.js"></script>
 </body>
 </html>
