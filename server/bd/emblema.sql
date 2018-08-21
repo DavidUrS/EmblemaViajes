@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0
+-- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-07-2018 a las 02:55:11
--- Versión del servidor: 10.1.31-MariaDB
--- Versión de PHP: 7.2.4
+-- Tiempo de generación: 21-08-2018 a las 23:06:07
+-- Versión del servidor: 10.1.34-MariaDB
+-- Versión de PHP: 7.2.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,24 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `emblema`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `afiliacion`
+--
+
+CREATE TABLE `afiliacion` (
+  `nombres` varchar(60) NOT NULL,
+  `apellidos` varchar(60) NOT NULL,
+  `ciudad` varchar(60) NOT NULL,
+  `pais` varchar(60) NOT NULL,
+  `telefono` varchar(60) NOT NULL,
+  `celular` varchar(60) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `web` varchar(60) NOT NULL,
+  `observaciones` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -98,6 +116,29 @@ CREATE TABLE `clientes` (
   `edad_ninos` int(11) NOT NULL,
   `observaciones` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `contacto`
+--
+
+CREATE TABLE `contacto` (
+  `nombres` varchar(60) NOT NULL,
+  `apellidos` varchar(60) NOT NULL,
+  `telefono` varchar(60) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `inquietudes` varchar(500) NOT NULL,
+  `tema` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `contacto`
+--
+
+INSERT INTO `contacto` (`nombres`, `apellidos`, `telefono`, `email`, `inquietudes`, `tema`) VALUES
+('David', 'Uribe', '57 + 3008132438', 'INGDURIBE@GMAIL.COM', 'Ninguna', 'Consulta CotizaciÃ³n'),
+('mary', 'Puello', '57 + 3013535922', 'puello@gmail.com', 'Precio del tour', 'Consulta General');
 
 -- --------------------------------------------------------
 
@@ -205,6 +246,24 @@ INSERT INTO `hoteles` (`nombre_contacto`, `id`, `nombre_propiedad`, `cargo_conta
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `llamadas`
+--
+
+CREATE TABLE `llamadas` (
+  `numero` varchar(60) NOT NULL,
+  `nombres` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `llamadas`
+--
+
+INSERT INTO `llamadas` (`numero`, `nombres`) VALUES
+('57 + 3008132438', 'David Adrian Uribe Soto');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `promociones_usuarios`
 --
 
@@ -242,9 +301,79 @@ CREATE TABLE `proveedores` (
   `observaciones` varchar(60) COLLATE utf8_spanish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `quejas`
+--
+
+CREATE TABLE `quejas` (
+  `nombres` varchar(60) NOT NULL,
+  `numero` varchar(60) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `queja` varchar(60) NOT NULL,
+  `tema` varchar(60) NOT NULL,
+  `apellidos` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `quejas`
+--
+
+INSERT INTO `quejas` (`nombres`, `numero`, `email`, `queja`, `tema`, `apellidos`) VALUES
+('David', '57 + 3008132438', 'INGDURIBE@GMAIL.COM', 'Ninguna', 'Quejas y Reclamos', 'Uribe'),
+('Mary', '57 + 7797587', 'mary@puello.com', 'Me cobraron mÃ¡s de la cuenta', 'Quejas y Reclamos', 'Puello');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `royal_concierge`
+--
+
+CREATE TABLE `royal_concierge` (
+  `nombres` varchar(60) NOT NULL,
+  `apellidos` varchar(60) NOT NULL,
+  `ciudad` varchar(60) NOT NULL,
+  `pais` varchar(60) NOT NULL,
+  `telefono` varchar(60) NOT NULL,
+  `celular` varchar(60) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `observaciones` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `seguros`
+--
+
+CREATE TABLE `seguros` (
+  `nombres` varchar(60) NOT NULL,
+  `apellidos` varchar(60) NOT NULL,
+  `ciudad` varchar(60) NOT NULL,
+  `pais` varchar(60) NOT NULL,
+  `telefono` varchar(60) NOT NULL,
+  `celular` varchar(30) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `observaciones` varchar(400) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `seguros`
+--
+
+INSERT INTO `seguros` (`nombres`, `apellidos`, `ciudad`, `pais`, `telefono`, `celular`, `email`, `observaciones`) VALUES
+('Laura', 'Uribe Soto', 'Turbaco|', 'Colombia', '8888989', '000979', 'ojona@ojito.com', 'Es muy ojona');
+
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `afiliacion`
+--
+ALTER TABLE `afiliacion`
+  ADD PRIMARY KEY (`pais`);
 
 --
 -- Indices de la tabla `agencias`
@@ -265,6 +394,12 @@ ALTER TABLE `clientes`
   ADD PRIMARY KEY (`email`);
 
 --
+-- Indices de la tabla `contacto`
+--
+ALTER TABLE `contacto`
+  ADD PRIMARY KEY (`telefono`);
+
+--
 -- Indices de la tabla `empresas`
 --
 ALTER TABLE `empresas`
@@ -277,6 +412,12 @@ ALTER TABLE `hoteles`
   ADD PRIMARY KEY (`nombre_propiedad`);
 
 --
+-- Indices de la tabla `llamadas`
+--
+ALTER TABLE `llamadas`
+  ADD PRIMARY KEY (`numero`);
+
+--
 -- Indices de la tabla `promociones_usuarios`
 --
 ALTER TABLE `promociones_usuarios`
@@ -287,6 +428,24 @@ ALTER TABLE `promociones_usuarios`
 --
 ALTER TABLE `proveedores`
   ADD PRIMARY KEY (`numero_fiscal`);
+
+--
+-- Indices de la tabla `quejas`
+--
+ALTER TABLE `quejas`
+  ADD PRIMARY KEY (`numero`);
+
+--
+-- Indices de la tabla `royal_concierge`
+--
+ALTER TABLE `royal_concierge`
+  ADD PRIMARY KEY (`celular`);
+
+--
+-- Indices de la tabla `seguros`
+--
+ALTER TABLE `seguros`
+  ADD PRIMARY KEY (`telefono`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
