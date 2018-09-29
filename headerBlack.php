@@ -7,7 +7,7 @@
     <ul class="navbar-nav mx-auto text-center align-items-center">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="accesoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <strong style="font-size:20px;">E</strong>mblema
+          <strong style="font-size:20px;">E</strong>mblema Viajes
         </a>
         <div class="dropdown-menu text-center" aria-labelledby="accesoDropdown">
           <a class="dropdown-item" href="index.php">Inicio</a>

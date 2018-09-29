@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light text-center" id="navbar-primera">
-  <img src="./img/Logo.jpg" width="20%" alt="" id="logo">
+  <img src="./img/Logo.jpg" width="15%" alt="" id="logo">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>Menú
   </button>

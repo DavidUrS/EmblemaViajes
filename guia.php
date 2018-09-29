@@ -22,11 +22,11 @@
 
 <body>
 <?php
-        include_once 'headerBlack.php';
         include_once 'headerWhite.php';
+        include_once 'headerBlack.php';
 ?>
-<div class="container">
-<h1 class="display-3 text-center">Guias del viaje</h1>
+<div class="container mt-1">
+<h1 class="display-3 text-center">Guias del viajero de <em class="lead">Emblema Viajes </em></h1>
   <p>
   Descubre aquí una amplia selección de guías turísticas donde encontrarás todo lo necesario para que disfrutes al máximo de tus viajes y aproveches tu tiempo y dinero en tus destinos elegidos. Nuestras guías te ayudarán a planificar tu viaje y a elegir adecuadamente qué visitar y hacer, dónde y qué comer, donde ir de compras, como transportarte, donde dormir y mucho más para que puedas vivir la mejor experiencia. 
   </p>

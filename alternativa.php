@@ -16,10 +16,10 @@
 <body>
 
 <?php
-    include_once 'headerBlack.php';
-    include_once 'headerWhite.php';
+	include_once 'headerWhite.php';
+    include_once 'headerBlack.php';	
 ?>
-<div class="container">
+<div class="container mt-1">
     <div class="alert alert-secondary" role="alert">
         <h4 class="alert-heading">Estamos trabajando para ofrecerle la mejor experiencia, ofertas y contenidos.</h4>
         <p>

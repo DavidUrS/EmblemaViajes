@@ -49,7 +49,7 @@
 						<li style="list-style:none;"><code>Registro Nacional de Turismo N°</code></li>
 						<li style="list-style:none;"><code>Emblemaviajes.com 2018 - Nit: 901.089.922-7</code></li>
 						<li style="list-style:none;"><code>Cll. 73 N° 20-22 Of. 604, Bogotá, Colombia</code></li>
-						<li style="list-style:none;"><code>PBX: 57 1 344 1733</code></li>
+						<li style="list-style:none;"><code>PBX: 57 1 5800418</code></li>
 						<li style="list-style:none;"><code>info@emblemaviajes.com</code></li>
 					</ol>
 				</div>

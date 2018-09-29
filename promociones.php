@@ -1,8 +1,7 @@
 <?php
-    include_once 'headerBlack.php';
     include_once 'headerWhite.php';
+    include_once 'headerBlack.php';
 ?>
-
 <div class="container-fluid mt-5 " id="promociones">
     <div class="row">
         <div class="col-md-6 d-flex align-items-center">

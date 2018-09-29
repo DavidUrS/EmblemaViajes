@@ -18,13 +18,13 @@
 
 <body>
 <?php
-    include_once 'headerBlack.php';
     include_once 'headerWhite.php';
+    include_once 'headerBlack.php';
 ?>
-
 <!-- // Slider -->
-
-<div id="carouselCruceros" class="carousel slide" data-ride="carousel">
+<h1 class="display-3 text-center">Cruceros Emblema Viajes</h1>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
+<div id="carouselCruceros" class="carousel slide mt-1" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselCruceros" data-slide-to="0" class="active"></li>
     <li data-target="#carouselCruceros" data-slide-to="1"></li>

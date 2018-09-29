@@ -19,12 +19,13 @@
 <body>
 
     <?php
-          include_once 'headerBlack.php';
           include_once 'headerWhite.php';
+          include_once 'headerBlack.php';
     ?>
-
+<h1 class="display-3 text-center">Paquetes Emblema Viajes</h1>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
     <!-- Inicio de carousel -->
-<div id="carouselPaquetes" class="carousel slide" data-ride="carousel">
+<div id="carouselPaquetes" class="carousel slide mt-1" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselPaquetes" data-slide-to="0" class="active"></li>
     <li data-target="#carouselPaquetes" data-slide-to="1"></li>

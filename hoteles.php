@@ -18,13 +18,14 @@
 
 <body>
     <?php
-          include_once 'headerBlack.php';
           include_once 'headerWhite.php';
+          include_once 'headerBlack.php';
     ?>
-
+<h1 class="display-3 text-center">Emblema Viajes</h1>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
 
 <!-- // Slider -->
-<div id="carouselHoteles" class="carousel slide" data-ride="carousel">
+<div id="carouselHoteles" class="carousel slide mt-1" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselHoteles" data-slide-to="0" class="active"></li>
     <li data-target="#carouselHoteles" data-slide-to="1"></li>

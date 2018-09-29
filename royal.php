@@ -16,10 +16,16 @@
 <body>
 
 <?php
-    include_once 'headerBlack.php';
     include_once 'headerWhite.php';
+    include_once 'headerBlack.php';
 ?>
 
+<h1 class="display-3 text-center mt-1">Descubre ROYAL CONCIERGE</h1>
+<hr>
+<p class="lead">Qué es Royal Concierge</p>
+<p>
+Royal Concierge es el concierge virtual que ofrece el servicio personalizado que prestaba antaño la figura emblemática del Conserje Hotelero que poco a poco se fue eliminando y desapareciendo y que ha sobrevivido únicamente en hoteles de gran lujo y marcas prestigiosas.
+</p>
 
 <?php
     include_once 'footer.php';

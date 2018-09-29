@@ -20,7 +20,7 @@
     include_once 'headerWhite.php';
 ?>
 
-<h1 class="display-3 text-center">Sobre nosotros</h1>
+<h1 class="display-3 text-center mt-1">Sobre nosotros</h1>
 <div class="container">
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="nav-item">
