@@ -23,33 +23,33 @@
     <h1 class="display-4 text-center">Formulario de reversión de pagos</h1>
     <form id="form_reversion_pagos">
         <div class="form-group">
-            <input type="email" class="form-control" id="nombre" placeholder="Nombre del titular de la tarjeta de crédito con la que se efectuó la compra" required>
+            <input type="text" class="form-control" id="id_reversion" placeholder="Número de identificación" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="id" placeholder="Número de identificación" required>
+            <input type="text" class="form-control" id="nombre_reversion" placeholder="Nombre del titular de la tarjeta de crédito con la que se efectuó la compra" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="nombre" placeholder="Apellidos" required>
+            <input type="text" class="form-control" id="apellidos_reversion" placeholder="Apellidos" required>
         </div>
         <div class="form-group">
             <small class="form-text">Por medio de la presente y de acuerdo con el Decreto 587 de 2016 expedido por el Ministerio de Industria y Turismo, en consonancia con el Art. 51 de la Ley 1480 del 2011, solicito la reversión de</small>
             <p class="text-center">Tipo de reversión</p>
-            <select class="form-control" id="guia">
+            <select class="form-control" name="tipo_reversion">
                 <option>Pago total</option>
                 <option>Pago parcial</option>
             </select>
         </div>
         <div class="form-group">
             <small class="form-text">del producto o servicio que adquirí a través de mecanismos de comercio electrónico, y el cual describo a continuación</small>
-            <input type="text" class="form-control" id="nombre" placeholder="Valor del producto o servicio" required>            
+            <input type="text" class="form-control" id="valor_total_reversion" placeholder="Valor del producto o servicio" required>            
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="nombre" placeholder="Valor solicitado por medio de la reversión de pagos" required>            
+            <input type="text" class="form-control" id="valor_solicitado_reversion" placeholder="Valor solicitado por medio de la reversión de pagos" required>            
         </div>
         <div class="form-group">
             <small class="form-text">Medio de pago</small>
             <p class="text-center">Tipo de cuenta</p>
-            <select class="form-control" id="guia">
+            <select class="form-control" name="tipo_cuenta_reversion">
                 <option>Tarjeta Crédito</option>
                 <option>Tarjeta Debito</option>
             </select>
@@ -59,7 +59,7 @@
         </div>
         <div class="form-group">
             <p class="text-center">Tipo de tarjeta</p>
-            <select class="form-control" id="guia">
+            <select class="form-control" name="tipo_tarjeta_reversion">
                 <option>Visa</option>
                 <option>MasterCard</option>
                 <option>Dinners</option>
@@ -68,11 +68,11 @@
             </select>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="banco" placeholder="Numero de cuenta (Últimos 4 números)" required>
+            <input type="text" class="form-control" id="numero_cuenta_reversion" placeholder="Numero de cuenta (Últimos 4 números)" required>
         </div>
         <div class="form-group">
             <p class="text-center">Descripción del producto</p>
-            <select class="form-control" id="guia">
+            <select class="form-control" name="descripcion_producto_reversion">
                 <option>Hotel</option>
                 <option>Hotel + Vuelo</option>
                 <option>Paquete</option>
@@ -84,11 +84,11 @@
             </select>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="banco" placeholder="Número de compra o reserva" required>
+            <input type="text" class="form-control" id="numero_reversion" placeholder="Número de compra o reserva" required>
         </div>
         <div class="form-group">
             <p class="text-center">Causal(es) de la solicitud la reversión de pago</p>
-            <select class="form-control" id="guia">
+            <select class="form-control" name="causa_reversion">
                 <option>Fraude</option>
                 <option>El producto adquirido no fue recibido</option>
                 <option>El producto entregado no corresponde al bien solicitado</option>
@@ -97,16 +97,16 @@
             </select>
         </div>
         <div class="form-group">
-            <input type="email" class="form-control" id="banco" placeholder="Correo electrónico del solicitante" required>
+            <input type="email" class="form-control" id="correo_reversion" placeholder="Correo electrónico del solicitante" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="banco" placeholder="Número telefónico del solicitante de la reversión" required>
+            <input type="text" class="form-control" id="telefono_reversion" placeholder="Número telefónico del solicitante de la reversión" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="banco" placeholder="Dirección de notificación" required>
+            <input type="text" class="form-control" id="direccion_reversion" placeholder="Dirección de notificación" required>
         </div>
         <div class="form-check mb-2 mr-sm-2">
-            <input class="form-check-input" type="checkbox" name="guia">
+            <input class="form-check-input" type="checkbox" name="acepto_reversion_pagos">
             <label class="form-check-label" for="">
             <p>
                 Antes de enviar este formulario, debes leer la siguiente información básica sobre 
@@ -116,7 +116,7 @@
             </p>
             </label>
         </div>
-        <button type="submit" class="btn btn-primary mt-2">Enviar solicitud</button>
+        <input type="submit" class="btn btn-primary mt-2" value="Enviar solicitud"/>
     </form>
 </div>
 <?php
@@ -128,5 +128,6 @@
     <script src="./js/js/bootstrap.min.js"></script>
     <script src="./js/js/jquery-ui.js"></script>
     <script src="./js/alternativa.js"></script>
+    <script src="./js/adicionales/reversion_pagos.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@ if ($response['conexion']=='OK') {
 	values ('$nombre', '$email')");
 
 	if ($consulta) {
-		$response['insertado']='Recibira en su correro, las nuevas ofiertas';
+		$response['insertado']='Recibira en su correro, las nuevas ofertas';
 		echo json_encode($response);
 	}else{
 		$response['insertado']='Error al insertar';
