@@ -20,7 +20,7 @@
     include_once 'headerBlack.php';
 ?>
 <h1 class="display-3 text-center">Servicios Emblema Viajes</h1>
-<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descúbrelo!</p>
 
 <div class="container">
 <h1 id="servicios_vertical" class="display-4 text-center font-weight-bold mt-1" style="font-size: 40px;">Servicios</h1>

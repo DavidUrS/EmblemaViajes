@@ -22,7 +22,7 @@
           include_once 'headerBlack.php';
     ?>
 <h1 class="display-3 text-center">Alojamientos Emblema Viajes</h1>
-<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descúbrelo!</p>
 
 <!-- // Slider -->
 <div id="carouselHoteles" class="carousel slide mt-1" data-ride="carousel">

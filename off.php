@@ -23,7 +23,7 @@
 ?>
 
 <h1 class="display-3 text-center">Ofertas Emblema Viajes</h1>
-<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descúbrelo!</p>
 
 <!-- // Slider -->
 

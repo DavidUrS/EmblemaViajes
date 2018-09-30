@@ -1,5 +1,5 @@
-<h1 class="display-3 text-center">Emblema Viajes prueba git ftp segunda y ultima</h1>
-<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
+<h1 class="display-3 text-center">Emblema Viajes</h1>
+<p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descúbrelo!</p>
 <div id="carouselExampleIndicators" class="carousel slide mt-2" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
