@@ -1,7 +1,7 @@
 <?php
 require('./conexion.php');
-$con = new ConectorBD('localhost','root','');
-$response['conexion'] = $con->initConexion('emblema');
+$con = new ConectorBD("localhost","emblemaviajes_david","11111111David1050");
+$response['conexion'] = $con->initConexion("emblemaviajes_emblema");
 
 if ($response['conexion']=='OK') {
 	$data = json_decode($_POST["datos"]);

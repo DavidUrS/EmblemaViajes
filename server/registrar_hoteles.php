@@ -4,9 +4,8 @@ session_start();
 // Require de la conexion
 require('./conexion.php');
 // Instancia de la coneccion
-$con = new ConectorBD('localhost','root','');
-// Conectando a la base de datos
-$response['conexion'] = $con->initConexion('emblema');
+$con = new ConectorBD("localhost","emblemaviajes_david","11111111David1050");
+$response['conexion'] = $con->initConexion("emblemaviajes_emblema");
 
 // Probando conección, respuesta OK
 if ($response['conexion']=='OK') {
