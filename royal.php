@@ -20,7 +20,7 @@
     include_once 'headerBlack.php';
 ?>
 
-<h1 class="display-3 text-center mt-1">Descubre ROYAL CONCIERGE</h1>
+<h1 class="display-3 text-center mt-1">Descubre Royal Concierge</h1>
 <hr>
 <p class="lead">Qué es Royal Concierge</p>
 <p>
