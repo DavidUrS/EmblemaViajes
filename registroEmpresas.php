@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=device-width">
     <title>EmblemaViajes</title>
+    <link rel="shortcut icon" href="./img/icono.png">
     <script src="./js/js/jquery.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/css/bootstrap.min.css">
