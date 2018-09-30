@@ -23,10 +23,16 @@
 
 <h1 class="display-3 text-center mt-1">Descubre Royal Concierge</h1>
 <hr>
-<p class="lead">Qué es Royal Concierge</p>
+<p class="lead">¿Qué es Royal Concierge?</p>
 <p>
 Royal Concierge es el concierge virtual que ofrece el servicio personalizado que prestaba antaño la figura emblemática del Conserje Hotelero que poco a poco se fue eliminando y desapareciendo y que ha sobrevivido únicamente en hoteles de gran lujo y marcas prestigiosas.
+<br>
+Royal Concierge atiende a sus afiliados y socios de la misma manera que un “Concierge llaves de oro”, trato personalizado, especializado, experto y eficiente ante cualquier consulta, gestión o averiguación. 
+<br>
+Sus afiliados y socios participan además del programa RC LOYALTY PROGRAM y de todos los beneficios que obtienen al usar el servicio de Royal Concierge.
 </p>
+<p></p>
+<p class="lead">¿Quién puede inscribirse?</p>
 
 <?php
     include_once 'footer.php';
