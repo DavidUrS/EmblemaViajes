@@ -1,4 +1,4 @@
-<h1 class="display-3 text-center">Emblema Viajes</h1>
+<h1 class="display-3 text-center">Emblema Viajes prueba git ftp</h1>
 <p class="lead text-center">Tu web de viajes, cruceros, hoteles, paquetes, parques y más. ¡Descubrelo!</p>
 <div id="carouselExampleIndicators" class="carousel slide mt-2" data-ride="carousel">
   <div class="carousel-inner">
